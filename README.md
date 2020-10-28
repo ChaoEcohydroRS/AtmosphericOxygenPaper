@@ -15,16 +15,16 @@ This GitHub repository includes R scripts (also accessed online from figshare ht
 # Overview
 This GitHub repository includes R scripts to reproduce the analyses in the manuscript, 
 "A persistently low level of atmospheric oxygen in Earth's middle age". 
-Datasets includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. The datasets used in this paper are available upon request (xiaomliu@email.unc.edu). 
+Datasets includes the compilation of Ce/Ce* in marine carbonate rocks . The datasets used in this paper are available upon request (xiaomliu@email.unc.edu). 
 
 
 The code does the following analyses: 
-(1) compares in situ temperature logger data to satellite-based sea surface temperature (SST), 
-(2) tests which SST product works best to reproduce the spatial and temporal patterns in the temperature loggers, 
-(3) used the lowest 10% (<10th percentiles) of values for each 100 Myr interval to estimate the atmospheric oxygen level from the Ce/Ce* data for each group,
-(4) assesses the broader climate drivers of upwelling (e.g. monsoon winds). 
-All figures included in the manuscript are reproduced here.
-The figures 2 and 3 in the paper "A persistently low level of atmospheric oxygen in Earth's middle age" were made using R statistical software (http://www.R-project.org/).
+(1) fit a curve to the lowest 10% of Ce/Ce* values in every 100 Myr interval, 
+(2) provide quantitative estimates of Earth’s atmospheric oxygen evolution after the GOE using our compiled Ce/Ce* carbonate data and a thermodynamics-based Ce oxidization model,
+(3) selected lowest Ce/Ce* values for a given time interval and consider the statistical distribution of sample numbers, for example, used the lowest 10% (<10th percentiles) of values for each 100 Myr interval to estimate the atmospheric oxygen level from the Ce/Ce* data for each group,
+(4) compared our modeling pO2 results with other models and proxy results during the Phanerozoic Eon. 
+
+The Figs 2 and 3 included in the manuscript can be reproduced using this scripts with R statistical software (http://www.R-project.org/).
 
 # Repo Contents
 
