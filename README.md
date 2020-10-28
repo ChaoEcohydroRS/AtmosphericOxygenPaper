@@ -9,7 +9,6 @@ This GitHub repository includes R scripts(also accessed online from figshare htt
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Demo](#demo)
-- [Results](#results)
 - [License](./LICENSE)
 - [Citation](#citation)
 
@@ -54,7 +53,7 @@ The runtimes below are generated using a computer with the recommended specs (16
 
 Before setting up program testing environment, users should have `R` version 3.4.0 or higher, and several packages set up from CRAN.
 # Installation Guide
-#### Installing R version 3.4.2 on Windows 10
+### Installing R version 3.4.2 on Windows 10
 
 the latest version of R can be installed by following the guilds below:
 
@@ -73,8 +72,6 @@ total setup time depending on your personal computer system and familar with the
 but usually should install within about 10 minues.
 
 
-## Development Version
-
 ### Package dependencies
 
 Users should install the following packages prior to using these scripts:
@@ -88,17 +85,27 @@ which will install in about 20 seconds on a machine with the recommended specs.
 
 If you are having an issue that you believe to be tied to software versioning issues, please drop us an [Issue](https://github.com/neurodata/lol/issues). 
 
-### Package Installation
 
 
 # Demo
 ## Instructions to run on data
 
 ```
+#Loading the dependence packages
 library(quantreg)
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
+
+#define a workstation
+workstation='C:\\Workstation\\XiaomingLiu\\'
+
+# loading the compar dataset
+#give the file path of the dataset prepared
+csvfile=paste(workstation,'Ce_DataVersion3.csv',sep='')
+
+#read the csv file and get the dataframe
+CeDataFrame <- read_csv(csvfile)
 ```
 
 
@@ -108,11 +115,21 @@ library(tidyverse)
 The R script file named "R_ScriptForFigure3.txt" is used to reproduce the Figure 3 in this paper.
 
 # Instructions for use
-### Figure 2
+### Figure 2 quick example
 The R script file named "R_ScriptForFigure2.txt" is used to reproduce the Figure 2 in this paper.
 The script has add very detialed comments for almost each line of the code and please check out the code into the R script.
 
-### Figure 3
+
+library(quantreg)
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+
+
+
+
+
+### Figure 3 quick example
 
 # License
 MIT License
