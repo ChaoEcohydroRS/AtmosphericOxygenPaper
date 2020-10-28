@@ -153,4 +153,5 @@ SOFTWARE.
 # Citation
 
 For usage of the scripts and associated manuscript, please cite according to citation of the published paper.
+
 Xiaoming Liu et.al. 2020. A persistently low level of atmospheric oxygen in Earth's middle age, Nature communications. Under-reviewing
