@@ -1,6 +1,6 @@
 # A persistently low level of atmospheric oxygen in Earth's middle age
 
-This GitHub repository includes R scripts(also accessed online from figshare http://10.6084/m9.figshare.13114379) for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
+This GitHub repository includes R scripts (also accessed online from figshare http://10.6084/m9.figshare.13114379) for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
 
 ## Contents
 
@@ -15,13 +15,13 @@ This GitHub repository includes R scripts(also accessed online from figshare htt
 # Overview
 This GitHub repository includes R scripts to reproduce the analyses in the manuscript, 
 "A persistently low level of atmospheric oxygen in Earth's middle age". 
-Datasets includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. The datasets used in this paper are available upon request. 
+Datasets includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. The datasets used in this paper are available upon request (xiaomliu@email.unc.edu). 
 
 
 The code does the following analyses: 
 (1) compares in situ temperature logger data to satellite-based sea surface temperature (SST), 
 (2) tests which SST product works best to reproduce the spatial and temporal patterns in the temperature loggers, 
-(3) compares wind and sea surface height (SSH) patterns to the timing of upwelling events,
+(3) used the lowest 10% (<10th percentiles) of values for each 100 Myr interval to estimate the atmospheric oxygen level from the Ce/Ce* data for each group,
 (4) assesses the broader climate drivers of upwelling (e.g. monsoon winds). 
 All figures included in the manuscript are reproduced here.
 The figures 2 and 3 in the paper "A persistently low level of atmospheric oxygen in Earth's middle age" were made using R statistical software (http://www.R-project.org/).
