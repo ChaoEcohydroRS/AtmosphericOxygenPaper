@@ -22,7 +22,7 @@ The datasets used in this study are available upon request (xiaomliu@email.unc.e
 The code does the following analyses: 
 (1) fit a curve to the lowest 10% of Ce/Ce* values in every 100 Myr interval, 
 (2) provide quantitative estimates of Earth’s atmospheric oxygen evolution after the GOE using our compiled Ce/Ce* carbonate data and a thermodynamics-based Ce oxidization model,
-(3) selected lowest Ce/Ce* values for a given time interval and consider the statistical distribution of sample numbers, for example, used the lowest 10% (<10th percentiles) of values for each 100 Myr interval to estimate the atmospheric oxygen level from the Ce/Ce* data for each group,
+(3) select lowest Ce/Ce* values for a given time interval and consider the statistical distribution of sample numbers, for example, use the lowest 10% (<10th percentiles) of values for each 100 Myr interval to estimate the atmospheric oxygen level from the Ce/Ce* data for each group,
 (4) compare our modeling pO2 results with other models and proxy results during the Phanerozoic Eon. 
 
 The Figs 2 and 3 included in the study can be reproduced using this scripts with R statistical software (http://www.R-project.org/).
