@@ -29,7 +29,7 @@ The Figs 2 and 3 included in the study can be reproduced using this scripts with
 
 # Repo Contents
 
-- [docs]: scripts documentation, and usage of the script examples.
+- [README.md]: the detailed documentation, and usage of the script examples.
 - [R_ScriptForFigure2.R]: R script for reproducing Figure 2
 - [R_ScriptForFigure3.R]: R script for reproducing Figure 3
 - [License]: License file
@@ -38,20 +38,20 @@ The Figs 2 and 3 included in the study can be reproduced using this scripts with
 # System Requirements
 ## OS Requirements
 The developmental version of the scripts has been tested on the Windows 10 systems. 
-The scripts should be compatible with Mac, and Linux operating systems because it has used R packages.
+The scripts should be compatible with Mac, and Linux operating systems because it has used R packages which is a compatible software.
 
 ### Hardware Requirements
-The scripts requires only a standard computer with enough RAM to support the operations defined by a user. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, we recommend a computer with the following specs:
+The scripts requires only a standard computer with enough RAM to support the operations defined by a user. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, we recommend a computer with the following specs (same as the computation environment we used):
 
-RAM: 16+ GB  
-CPU: 4+ cores, 3.3+ GHz/core
+RAM: 8+ GB  
+CPU: 4+ cores, 3.2+ GHz/core
 
-The runtimes below are generated using a computer with the recommended specs (16 GB RAM, 4 cores@3.3 GHz) and internet of speed 25 Mbps.
+The runtimes below are generated using a computer with the recommended specs (8 GB RAM, 4 cores@3.2 GHz).
 
 ### Software Requirements
 
+Before setting up script testing environment, users should have `R` version 3.3.2 (which we used) or higher, and several packages set up from CRAN.
 
-Before setting up program testing environment, users should have `R` version 3.4.0 or higher, and several packages set up from CRAN.
 # Installation Guide
 ### Installing R version 3.4.2 on Windows 10
 
