@@ -1,7 +1,6 @@
 # A persistently low level of atmospheric oxygen in Earth's middle age
 
-This GitHub repository includes Google Earth Engine (GEE) python/JavaScript scripts for calculating river ice and projecting future ice condition, R scripts for importing, cleaning, analyzing, and visualizing the data.
-The code used to analyse and visualize the dataset can be accessed online from figshare (link). The figures 2 and 3 in the paper were made using R statistical software (http://www.R-project.org/).
+This GitHub repository includes R scripts for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
 
 ## Contents
 
@@ -24,7 +23,7 @@ The code does the following analyses:
 (3) compares wind and sea surface height (SSH) patterns to the timing of upwelling events,
 (4) assesses the broader climate drivers of upwelling (e.g. monsoon winds). 
 All figures included in the manuscript are reproduced here.
-
+The figures 2 and 3 in the paper "A persistently low level of atmospheric oxygen in Earth's middle age" were made using R statistical software (http://www.R-project.org/).
 
 # Repo Contents
 
@@ -73,7 +72,7 @@ the latest version of R can be installed by following the guilds below:
 (If you want to learn how to install packages, you can see find some tutorials from the following site or from some books:
 https://towardsdatascience.com/setup-a-data-science-environment-on-your-personal-computer-6ce931113914).
 
-total setup time depending on your personal computer system 
+total setup time depending on your personal computer system and familar with the R software,
 but usually should install within about 10 minues.
 
 
@@ -116,40 +115,21 @@ vignette("lol", package="lolR")  # view one of the basic vignettes
 The package should take approximately 40 seconds to install with vignettes on a recommended computer. 
 
 # Demo
+## Instructions to run on data
+### Figure 2
+The R script file named "R_ScriptForFigure2.txt" is used to reproduce the Figure 2 in this paper.
+The script has add very detialed comments for almost each line of the code and please check out the code into the R script.
 
-## Functions
+### Figure 3
+The R script file named "R_ScriptForFigure3.txt" is used to reproduce the Figure 3 in this paper.
 
-For interactive demos of the functions, please check out the vignettes built into the package. They can be accessed as follows:
 
-```
-require(lolR)
-vignette('lol')
-vignette('pca')
-vignette('cpca')
-vignette('lrcca')
-vignette('mdp')
-vignette('xval')
-vignette('qoq')
-vignette('simulations')
-vignette('nearestCentroid')
-```
 
-## Extending the lolR Package
-
-The lolR package makes many useful resources available (such as embedding and cross-validation) for simple extension. 
-
-To extend the lolR package, check out the vignettes:
-
-```
-require(lolR)
-vignette('extend_embedding')
-vignette('extend_classification')
-```
 
 # Results
 
-In this [benchmark comparison](http://docs.neurodata.io/lol/lol-paper/figures/real_data.html), we show that LOL does better than all linear embedding techniques in supervised HDLSS settings when dimensionality is high (d > 100, ntrain <= d) on 20 benchmark problems from the [UCI](https://archive.ics.uci.edu/ml/index.php) and [PMLB](https://github.com/EpistasisLab/penn-ml-benchmarks) datasets. LOL provides a good tradeoff between maintaining the class conditional difference (good misclassification rate) in a small number of dimensions (low number of embedding dimensions).
+
 
 # Citation
 
-For usage of the package and associated manuscript, please cite according to the enclosed [citation.bib](./citation.bib).
+For usage of the scripts and associated manuscript, please cite according to citation of the published paper.
