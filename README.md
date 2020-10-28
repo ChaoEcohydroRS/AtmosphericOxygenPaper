@@ -77,10 +77,10 @@ but usually should install within about 10 minues.
 
 ### Package dependencies
 
-Users should install the following packages prior to installing `lolR`, from an `R` terminal:
+Users should install the following packages prior to using these scripts:
 
 ```
-install.packages(c('ggplot2', 'abind', 'irlba', 'knitr', 'rmarkdown', 'latex2exp', 'MASS', 'randomForest'))
+install.packages(c('ggplot2', 'quantreg', 'dplyr', 'tidyverse'))
 ```
 
 which will install in about 30 seconds on a machine with the recommended specs.
@@ -100,16 +100,6 @@ If you are having an issue that you believe to be tied to software versioning is
 
 ### Package Installation
 
-From an `R` session, type:
-
-```
-require(devtools)
-install_github('neurodata/lol', build_vignettes=TRUE, force=TRUE)  # install lol with the vignettes
-require(lolR)
-vignette("lol", package="lolR")  # view one of the basic vignettes
-```
-
-The package should take approximately 40 seconds to install with vignettes on a recommended computer. 
 
 # Demo
 ## Instructions to run on data
@@ -153,3 +143,4 @@ SOFTWARE.
 # Citation
 
 For usage of the scripts and associated manuscript, please cite according to citation of the published paper.
+Xiaoming Liu et.al. 2020. A persistently low level of atmospheric oxygen in Earth's middle age, nature communications
