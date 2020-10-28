@@ -6,7 +6,7 @@ This GitHub repository includes R scripts for importing, analyzing, and visualiz
 
 - [Overview](#overview)
 - [Repo Contents](#repo-contents)
-- [System Requirements](#System Requirements)
+- [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Demo](#demo)
 - [Results](#results)
