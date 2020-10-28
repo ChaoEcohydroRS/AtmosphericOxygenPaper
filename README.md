@@ -83,18 +83,8 @@ Users should install the following packages prior to using these scripts:
 install.packages(c('ggplot2', 'quantreg', 'dplyr', 'tidyverse'))
 ```
 
-which will install in about 30 seconds on a machine with the recommended specs.
+which will install in about 20 seconds on a machine with the recommended specs.
 
-The `lolR` package functions with all packages in their latest versions as they appear on `CRAN` on December 13, 2017. Users can check [CRAN snapshot](https://mran.microsoft.com/timemachine/) for details. The versions of software are, specifically:
-```
-abind_1.4-5
-latex2exp_0.4.0
-ggplot2_2.2.1
-irlba_2.3.1
-Matrix_1.2-3
-MASS_7.3-47
-randomForest_4.6-12
-```
 
 If you are having an issue that you believe to be tied to software versioning issues, please drop us an [Issue](https://github.com/neurodata/lol/issues). 
 
@@ -103,18 +93,26 @@ If you are having an issue that you believe to be tied to software versioning is
 
 # Demo
 ## Instructions to run on data
+
+```
+library(quantreg)
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+```
+
+
+
+
+
+The R script file named "R_ScriptForFigure3.txt" is used to reproduce the Figure 3 in this paper.
+
+# Instructions for use
 ### Figure 2
 The R script file named "R_ScriptForFigure2.txt" is used to reproduce the Figure 2 in this paper.
 The script has add very detialed comments for almost each line of the code and please check out the code into the R script.
 
 ### Figure 3
-The R script file named "R_ScriptForFigure3.txt" is used to reproduce the Figure 3 in this paper.
-
-
-
-
-# Results
-
 
 # License
 MIT License
@@ -143,4 +141,4 @@ SOFTWARE.
 # Citation
 
 For usage of the scripts and associated manuscript, please cite according to citation of the published paper.
-Xiaoming Liu et.al. 2020. A persistently low level of atmospheric oxygen in Earth's middle age, nature communications
+Xiaoming Liu et.al. 2020. A persistently low level of atmospheric oxygen in Earth's middle age, Nature communications. Under-reviewing
