@@ -50,31 +50,34 @@ The runtimes below are generated using a computer with the recommended specs (8 
 
 ### Software Requirements
 
-Before setting up script testing environment, users should have `R` version 3.3.2 (which we used) or higher, and several packages set up from CRAN.
+Before setting up script testing environment, users should have `R` version 3.3.2 (we used) or higher, and several packages set up from CRAN.
 
 # Installation Guide
-### Installing R version 3.4.2 on Windows 10
+### Installing R version 3.3.2 or higher on Windows 10
 
 the latest version of R can be installed by following the guilds below:
 
 1. Download R from http://cran.us.r-project.org/.
-2. Click on Download R for Windows. Click on base. Click on Download R 3.3.2 for Windows (or a newer version that appears).
+
+2. Click on Download R for Windows. Click on base. Click on Download R 3.3.2 (or a higher version) for Windows.
+
 3. Install R. Leave all default settings in the installation options.
 
 4. Install RStudio requires R 3.0.1+.
 
-5. Download RStudio Desktop for windows from http://rstudio.org/download/desktop (it should be called something like RStudio Desktop 1.3.1093 — Windows Vista/7/8/10). Choose default installation options.
+5. Download RStudio Desktop for windows from http://rstudio.org/download/desktop (it should be called something like RStudio Desktop 1.3.1093 — Windows 10). Choose default installation options suitable for your computer.
+
 6. Open RStudio. 
-(If you want to learn how to install packages, you can see find some tutorials from the following site or from some books:
+If you want to learn how to install packages on RStudio, you may find some tutorials from the following site:
 https://towardsdatascience.com/setup-a-data-science-environment-on-your-personal-computer-6ce931113914).
 
-total setup time depending on your personal computer system and familar with the R software,
+The total setup time depends on your personal computer system and also your familiarity with the R software,
 but usually should install within about 10 minues.
 
 
 ### Package dependencies
 
-Users should install the following packages prior to using these scripts:
+Users should install the following packages prior to using these two scripts:
 
 ```
 install.packages(c('ggplot2', 'quantreg', 'dplyr', 'tidyverse'))
@@ -83,7 +86,7 @@ install.packages(c('ggplot2', 'quantreg', 'dplyr', 'tidyverse'))
 which will install in about 20 seconds on a machine with the recommended specs.
 
 
-If you are having an issue that you believe to be tied to software versioning issues, please drop us an [Issue](https://github.com/neurodata/lol/issues). 
+If you are having an issue that you believe to be tied to software versioning issues, please drop us an email (chao.wang@unc.edu). 
 
 
 
@@ -106,13 +109,13 @@ csvfile=paste(workstation,'Ce_DataVersion3.csv',sep='')
 
 #read the csv file and get the dataframe
 CeDataFrame <- read_csv(csvfile)
+
 ```
 
 
 
 
 
-The R script file named "R_ScriptForFigure3.txt" is used to reproduce the Figure 3 in this paper.
 
 # Instructions for use
 ### Figure 2 quick example
@@ -130,6 +133,9 @@ library(tidyverse)
 
 
 ### Figure 3 quick example
+The R script file named "R_ScriptForFigure3.R" is used to reproduce the Figure 3 in this study.
+
+
 
 # License
 MIT License
