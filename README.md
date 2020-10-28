@@ -15,24 +15,24 @@ This GitHub repository includes R scripts (also accessed online from figshare ht
 # Overview
 This GitHub repository includes R scripts to reproduce the analyses in the manuscript, 
 "A persistently low level of atmospheric oxygen in Earth's middle age". 
-Datasets includes the compilation of Ce/Ce* in marine carbonate rocks . The datasets used in this paper are available upon request (xiaomliu@email.unc.edu). 
+Datasets includes the compilation of Ce/Ce* in marine carbonate rocks, as well as pO2 dataset and proxy results from other models during the Phanerozoic Eon. 
+The datasets used in this study are available upon request (xiaomliu@email.unc.edu). 
 
 
 The code does the following analyses: 
 (1) fit a curve to the lowest 10% of Ce/Ce* values in every 100 Myr interval, 
 (2) provide quantitative estimates of Earth’s atmospheric oxygen evolution after the GOE using our compiled Ce/Ce* carbonate data and a thermodynamics-based Ce oxidization model,
 (3) selected lowest Ce/Ce* values for a given time interval and consider the statistical distribution of sample numbers, for example, used the lowest 10% (<10th percentiles) of values for each 100 Myr interval to estimate the atmospheric oxygen level from the Ce/Ce* data for each group,
-(4) compared our modeling pO2 results with other models and proxy results during the Phanerozoic Eon. 
+(4) compare our modeling pO2 results with other models and proxy results during the Phanerozoic Eon. 
 
-The Figs 2 and 3 included in the manuscript can be reproduced using this scripts with R statistical software (http://www.R-project.org/).
+The Figs 2 and 3 included in the study can be reproduced using this scripts with R statistical software (http://www.R-project.org/).
 
 # Repo Contents
 
-- [R](./R): `R` package code.
-- [docs](./docs): package documentation, and usage of the `lolR` package on many real and simulated data examples.
-- [man](./man): package manual for help in R session.
-- [tests](./tests): `R` unit tests written using the `testthat` package.
-- [vignettes](./vignettes): `R` vignettes for R session html help pages.
+- [docs]: scripts documentation, and usage of the script examples.
+- [R_ScriptForFigure2.R]: R script for reproducing Figure 2
+- [R_ScriptForFigure3.R]: R script for reproducing Figure 3
+- [License]: License file
 
 
 # System Requirements
