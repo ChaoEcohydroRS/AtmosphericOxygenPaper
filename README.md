@@ -86,7 +86,7 @@ install.packages(c('ggplot2', 'quantreg', 'dplyr', 'tidyverse'))
 which will install in about 20 seconds on a machine with the recommended specs.
 
 
-If you are having an issue that you believe to be tied to software versioning issues, please drop us an email (chao.wang@unc.edu). 
+If you are having an issue that you believe to be tied to software versioning issues, please drop us an email (xiaomliu@email.unc.edu or chao.wang@unc.edu). 
 
 
 
@@ -103,7 +103,7 @@ library(tidyverse)
 #define a workstation
 workstation='C:\\Workstation\\XiaomingLiu\\'
 
-# loading the compar dataset
+# loading the compilation dataset
 #give the file path of the dataset prepared
 csvfile=paste(workstation,'Ce_DataVersion3.csv',sep='')
 
@@ -112,29 +112,18 @@ CeDataFrame <- read_csv(csvfile)
 
 ```
 
-
-
-
+Running the script "R_ScriptForFigure2.R" on the dataset (are available upon request by email xiaomliu@email.unc.edu) produces the expected output as Figure 2 in a pdf version.
+The similary result of can be expected from the script of "R_ScriptForFigure3.R".
 
 
 # Instructions for use
 ### Figure 2 quick example
-The R script file named "R_ScriptForFigure2.txt" is used to reproduce the Figure 2 in this paper.
-The script has add very detialed comments for almost each line of the code and please check out the code into the R script.
-
-
-library(quantreg)
-library(dplyr)
-library(ggplot2)
-library(tidyverse)
-
-
-
-
+The R script file named "R_ScriptForFigure2.R" is used to reproduce the Figure 2 in this paper.
+The script has added detialed comments for almost each line of the script to promote it reuseable and please check out the code into the R script.
 
 ### Figure 3 quick example
 The R script file named "R_ScriptForFigure3.R" is used to reproduce the Figure 3 in this study.
-
+The script has added detialed comments for almost each line of the script to promote it reuseable and please check out the code into the R script.
 
 
 # License
