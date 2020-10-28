@@ -1,6 +1,6 @@
 # A persistently low level of atmospheric oxygen in Earth's middle age
 
-This GitHub repository includes R scripts for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
+This GitHub repository includes R scripts(also accessed online from figshare http://10.6084/m9.figshare.13114379) for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
 
 ## Contents
 
@@ -14,9 +14,11 @@ This GitHub repository includes R scripts for importing, analyzing, and visualiz
 - [Citation](#citation)
 
 # Overview
-Data and code to reproduce the analyses in the manuscript, 
+This GitHub repository includes R scripts to reproduce the analyses in the manuscript, 
 "A persistently low level of atmospheric oxygen in Earth's middle age". 
-Data includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. 
+Datasets includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. The datasets used in this paper are available upon request. 
+
+
 The code does the following analyses: 
 (1) compares in situ temperature logger data to satellite-based sea surface temperature (SST), 
 (2) tests which SST product works best to reproduce the spatial and temporal patterns in the temperature loggers, 
