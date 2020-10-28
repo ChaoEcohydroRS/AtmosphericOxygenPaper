@@ -113,7 +113,7 @@ CeDataFrame <- read_csv(csvfile)
 ```
 
 Running the script "R_ScriptForFigure2.R" on the dataset (are available upon request by email xiaomliu@email.unc.edu) produces the expected output as Figure 2 in a pdf version.
-The similary result of can be expected from the script of "R_ScriptForFigure3.R".
+The similary result of Figure 3 can be expected from the script of "R_ScriptForFigure3.R".
 
 
 # Instructions for use
