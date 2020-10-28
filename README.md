@@ -6,7 +6,7 @@ This GitHub repository includes R scripts for importing, analyzing, and visualiz
 
 - [Overview](#overview)
 - [Repo Contents](#repo-contents)
-- [System Requirements](#system-requirements)
+- [System Requirements](#System Requirements)
 - [Installation Guide](#installation-guide)
 - [Demo](#demo)
 - [Results](#results)
@@ -33,12 +33,13 @@ The figures 2 and 3 in the paper "A persistently low level of atmospheric oxygen
 - [tests](./tests): `R` unit tests written using the `testthat` package.
 - [vignettes](./vignettes): `R` vignettes for R session html help pages.
 
-# Setting up the development environment:
 
 # System Requirements
+## OS Requirements
+The developmental version of the scripts has been tested on the Windows 10 systems. 
+The scripts should be compatible with Mac, and Linux operating systems because it has used R packages.
 
-## Hardware Requirements
-
+### Hardware Requirements
 The scripts requires only a standard computer with enough RAM to support the operations defined by a user. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, we recommend a computer with the following specs:
 
 RAM: 16+ GB  
@@ -46,14 +47,8 @@ CPU: 4+ cores, 3.3+ GHz/core
 
 The runtimes below are generated using a computer with the recommended specs (16 GB RAM, 4 cores@3.3 GHz) and internet of speed 25 Mbps.
 
-## Software Requirements
+### Software Requirements
 
-### OS Requirements
-
-The developmental version of the scripts has been tested on the following systems:
-Windows 10
-
-The CRAN package should be compatible with Windows, Mac, and Linux operating systems.
 
 Before setting up program testing environment, users should have `R` version 3.4.0 or higher, and several packages set up from CRAN.
 # Installation Guide
@@ -128,6 +123,29 @@ The R script file named "R_ScriptForFigure3.txt" is used to reproduce the Figure
 
 # Results
 
+
+# License
+MIT License
+
+Copyright (c) 2019-2020 Guillaume Rousselet
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 # Citation
