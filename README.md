@@ -1,8 +1,6 @@
-# Linear Optimal Low Rank Projection (lolR)
+# A persistently low level of atmospheric oxygen in Earth's middle age
 
-
-[![CRAN Status Badge](http://www.r-pkg.org/badges/version/lolR)](http://cran.r-project.org/web/packages/lolR)
-
+This GitHub repository includes Google Earth Engine (GEE) python/JavaScript scripts for calculating river ice and projecting future ice condition, R scripts for importing, cleaning, analyzing, and visualizing the data.
 
 ## Contents
 
@@ -13,13 +11,20 @@
 - [Demo](#demo)
 - [Results](#results)
 - [License](./LICENSE)
-- [Issues](https://github.com/ebridge2/lol/issues)
 - [Citation](#citation)
 
 # Overview
 Data and code to reproduce the analyses in the manuscript, 
-"Patterns, drivers, and ecological implications of upwelling in coral reef habitats of the southern Red Sea". Data includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. The code does the following analyses: (1) compares in situ temperature logger data to satellite-based sea surface temperature (SST), (2) tests which SST product works best to reproduce the spatial and temporal patterns in the temperature loggers, (3) compares wind and sea surface height (SSH) patterns to the timing of upwelling events, and (4) assesses the broader climate drivers of upwelling (e.g. monsoon winds). 
+"A persistently low level of atmospheric oxygen in Earth's middle age". 
+Data includes publicly-available weather data in addition to primary temperature logger data from instruments deployed underwater in the Farasan Banks region of the Saudi Arabian Red Sea. 
+The code does the following analyses: 
+(1) compares in situ temperature logger data to satellite-based sea surface temperature (SST), 
+(2) tests which SST product works best to reproduce the spatial and temporal patterns in the temperature loggers, 
+(3) compares wind and sea surface height (SSH) patterns to the timing of upwelling events,
+(4) assesses the broader climate drivers of upwelling (e.g. monsoon winds). 
 All figures included in the manuscript are reproduced here.
+
+
 # Repo Contents
 
 - [R](./R): `R` package code.
@@ -28,6 +33,7 @@ All figures included in the manuscript are reproduced here.
 - [tests](./tests): `R` unit tests written using the `testthat` package.
 - [vignettes](./vignettes): `R` vignettes for R session html help pages.
 
+# Setting up the development environment:
 
 # System Requirements
 
@@ -44,39 +50,31 @@ The runtimes below are generated using a computer with the recommended specs (16
 
 ### OS Requirements
 
-The package development version is tested on *Linux* operating systems. The developmental version of the package has been tested on the following systems:
-
-Linux: Ubuntu 16.04  
-Mac OSX:  
-Windows:  
+The developmental version of the scripts has been tested on the following systems:
+Windows 10
 
 The CRAN package should be compatible with Windows, Mac, and Linux operating systems.
 
-Before setting up the `lolR` package, users should have `R` version 3.4.0 or higher, and several packages set up from CRAN.
-
-#### Installing R version 3.4.2 on Ubuntu 16.04
-
-the latest version of R can be installed by adding the latest repository to `apt`:
-
-```
-sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
-gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
-gpg -a --export E084DAB9 | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install r-base r-base-dev
-```
-
-which should install in about 20 seconds.
-
+Before setting up program testing environment, users should have `R` version 3.4.0 or higher, and several packages set up from CRAN.
 # Installation Guide
+#### Installing R version 3.4.2 on Windows 10
 
-## Stable Release
+the latest version of R can be installed by following the guilds below:
 
-`lolR` is available in a stable release on CRAN:
+1. Download R from http://cran.us.r-project.org/.
+2. Click on Download R for Windows. Click on base. Click on Download R 3.3.2 for Windows (or a newer version that appears).
+3. Install R. Leave all default settings in the installation options.
 
-```
-install.packages('lolR')
-```
+4. Install RStudio requires R 3.0.1+.
+
+5. Download RStudio Desktop for windows from http://rstudio.org/download/desktop (it should be called something like RStudio Desktop 1.3.1093 — Windows Vista/7/8/10). Choose default installation options.
+6. Open RStudio. 
+(If you want to learn how to install packages, you can see find some tutorials from the following site or from some books:
+https://towardsdatascience.com/setup-a-data-science-environment-on-your-personal-computer-6ce931113914).
+
+total setup time depending on your personal computer system 
+but usually should install within about 10 minues.
+
 
 ## Development Version
 
