@@ -1,6 +1,7 @@
 # A persistently low level of atmospheric oxygen in Earth's middle age
 
 This GitHub repository includes Google Earth Engine (GEE) python/JavaScript scripts for calculating river ice and projecting future ice condition, R scripts for importing, cleaning, analyzing, and visualizing the data.
+The code used to analyse and visualize the dataset can be accessed online from figshare (link). The figures 2 and 3 in the paper were made using R statistical software (http://www.R-project.org/).
 
 ## Contents
 
