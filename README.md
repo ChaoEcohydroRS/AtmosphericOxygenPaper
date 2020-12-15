@@ -1,6 +1,6 @@
 # A persistently low level of atmospheric oxygen in Earth's middle age
 
-This GitHub repository includes R scripts (also accessed online from figshare http://10.6084/m9.figshare.13114379) for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
+This GitHub repository includes R scripts (also accessed online from figshare https://figshare.com/articles/online_resource/R_script_for_plot_figure_2_3/13114379) for importing, analyzing, and visualizing the data using R statistical software (http://www.R-project.org/).
 
 ## Contents
 
